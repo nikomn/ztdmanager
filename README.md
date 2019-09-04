@@ -1,4 +1,6 @@
 # ztdmanager
+Aineopintojen harjoitustyö: Tietokantasovellus
+
 Alustava kuvaus sovelluksen toiminnallisuudesta:
 
 Tehtävänä on luoda tietokantasovellus, jonka avulla käyttäjä voi hallinnoida omaa tehtävälistaansa ZTD (Zen To Done) järjestelmän mukaisesti (ZTD on yksinkertaistettu muunnelma GTD:stä).
@@ -12,5 +14,12 @@ Admin käyttäjillä on kaikki oikeudet, jotka peruskäyttäjälläkin, mutta he
 Käyttäjätunnuksen poistaminen poistaa samalla kaikki käyttäjään liittyvät tehtävät, kategoriat ja kontekstit. Kategorian tai kontekstin poistaminen poistaa kategorian kaikista tehtävissä, missä niitä on käytetty.
 
 Tietokannasta pitää olla mahdollista hakea erilaisia työlistoja erilaisilla kategoria, konteksti ja deadline rajauksilla yms.
+
+<>
+
+Selvitettäviä kysymyksiä jatkokehitystä ajatellen:
+- Ovatko kategoriat ja kontekstit käyttäjäkohtaisia vai globaaleja vai tilanteesta riippuen?
+- Jos kategoriat ovat käyttäjäkohtaisia, aiheuttaako tämä ongelman siinä, että kahdella käyttäjällä voi olla sama kategoria käytössään, ja tällöin siis tietokannassa on teknisesti sama kategoria kahdella id:llä?
+- Jos kategoriat ovat globaaleja, aiheuttaako tämä ongelman siinä, että valittavana on miljoona erilaista kategoriaa, jotka eroavat toisistaan vain hieman esim. sanamuodon osalta?
 
 
